@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 
 public class SpringbootDemoApplication {
 
-    //测试2
+    //测试1
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApplication.class, args);
     }
