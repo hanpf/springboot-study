@@ -15,8 +15,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 @PropertySource(value = "classpath:person.yml",factory = YamlPropertySourceFactory.class)
 
 public class SpringbootDemoApplication {
-        //测试回滚
-    //测试
+
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApplication.class, args);
     }

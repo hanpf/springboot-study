@@ -9,8 +9,10 @@ import org.springframework.stereotype.Component;
  * @date 2020/3/13  22:37
  */
 @Component
-@ConfigurationProperties(prefix = "person")
+//@ConfigurationProperties(prefix = "person")
 public class Person {
+
+    @Value("${person.name}")
     private String name;
     private int age;
 
