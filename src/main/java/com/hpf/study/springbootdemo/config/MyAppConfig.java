@@ -12,6 +12,6 @@ import org.springframework.context.annotation.Configuration;
 public class MyAppConfig {
     @Bean
     public HelloService helloService(){//用方法名作为 bean id
-        return new HelloService();
+        return new HelloService(1);
     }
 }
